@@ -24,25 +24,6 @@
   - Pillow
   - screeninfo (optional, required for inheriting screen settings from Windows)
 
-### Installation
-
-1. **Clone the Repository**:
-
-   ```bash
-   git clone https://github.com/yourusername/screenslicer.git
-   cd screenslicer
-   ```
-
-2. **Install Dependencies**:
-
-   The script automatically checks for required modules and installs them if they are missing. However, you can manually install them using:
-
-   ```bash
-   pip install PyQt5 Pillow screeninfo
-   ```
-
-   *Note*: The `screeninfo` module is only necessary if you plan to use the "Inherit from Windows" feature on a Windows system.
-
 ### Running the Application
 
 Run the script using Python 3:
