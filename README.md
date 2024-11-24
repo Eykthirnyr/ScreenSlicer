@@ -65,9 +65,9 @@ python screenslicer.py
 
    - Click **"Made by Clément GHANEME"** at the bottom of the application to open the developer's website: [https://clement.business](https://clement.business).
 
-## Screenshots
+## GUI
 
-*Screenshots of the application interface can be added here to provide visual guidance.*
+https://github.com/user-attachments/assets/31ec6d64-5b05-40ff-bb7a-dc9192bb0a04
 
 ## Troubleshooting
 
