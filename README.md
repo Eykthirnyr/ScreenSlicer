@@ -1,118 +1,127 @@
-ScreenSlicer
 
-ScreenSlicer is a Python application that allows you to split images across multiple screens with precise control, custom configurations, and high-resolution exports. It's designed to help you create stunning multi-monitor wallpapers or display images seamlessly across several displays.
+# ScreenSlicer
 
-Features
+**ScreenSlicer** is a Python application that allows you to split images across multiple screens with precise control, custom configurations, and high-resolution exports. It's designed to help you create stunning multi-monitor wallpapers or display images seamlessly across several displays.
 
-- Custom Screen Configuration: Manually configure your screens by entering resolution, diagonal size, and aspect ratio.
-- Inherit from Windows: Automatically detect and inherit screen settings from Windows (only on Windows OS).
-- High-Resolution Export: Export sliced images at the original resolution without any loss of quality.
-- Visual Feedback: Screens not fully covered by the image are highlighted with red borders in the preview.
-- Fine Adjustment Controls: Precisely position the image with one-pixel adjustments.
-- Image Scaling and Fitting: Scale images up or down and automatically fit images over the configured screens.
-- User-Friendly Interface: Tooltips and placeholder texts guide you through the application.
-- Developer Attribution: A link to the developer's website is provided for more information.
+## Features
 
-Getting Started
+- **Custom Screen Configuration**: Manually configure your screens by entering resolution, diagonal size, and aspect ratio.
+- **Inherit from Windows**: Automatically detect and inherit screen settings from Windows (only on Windows OS).
+- **High-Resolution Export**: Export sliced images at the original resolution without any loss of quality.
+- **Visual Feedback**: Screens not fully covered by the image are highlighted with red borders in the preview.
+- **Fine Adjustment Controls**: Precisely position the image with one-pixel adjustments.
+- **Image Scaling and Fitting**: Scale images up or down and automatically fit images over the configured screens.
+- **User-Friendly Interface**: Tooltips and placeholder texts guide you through the application.
+- **Developer Attribution**: A link to the developer's website is provided for more information.
 
-Prerequisites
+## Getting Started
 
-- Python 3.x
-- Required Python Modules:
+### Prerequisites
+
+- **Python 3.x**
+- **Required Python Modules**:
   - PyQt5
   - Pillow
   - screeninfo (optional, required for inheriting screen settings from Windows)
 
-Installation
+### Installation
 
-1. Clone the Repository:
+1. **Clone the Repository**:
 
+   ```bash
    git clone https://github.com/yourusername/screenslicer.git
    cd screenslicer
+   ```
 
-2. Install Dependencies:
+2. **Install Dependencies**:
 
    The script automatically checks for required modules and installs them if they are missing. However, you can manually install them using:
 
+   ```bash
    pip install PyQt5 Pillow screeninfo
+   ```
 
-   Note: The screeninfo module is only necessary if you plan to use the "Inherit from Windows" feature on a Windows system.
+   *Note*: The `screeninfo` module is only necessary if you plan to use the "Inherit from Windows" feature on a Windows system.
 
-Running the Application
+### Running the Application
 
 Run the script using Python 3:
 
+```bash
 python screenslicer.py
+```
 
-Usage
+## Usage
 
-1. Configure Screens:
+1. **Configure Screens**:
 
-   - Click "Configure Screens" to manually set up your screens.
+   - Click **"Configure Screens"** to manually set up your screens.
    - Enter the resolution (width and height in pixels), diagonal size (in cm), and select the aspect ratio for each screen.
    - Add or remove screens as needed.
 
-   Alternatively, if you're on a Windows system, click "Inherit from Windows" to automatically detect and import your screen settings.
+   *Alternatively*, if you're on a Windows system, click **"Inherit from Windows"** to automatically detect and import your screen settings.
 
-2. Load an Image:
+2. **Load an Image**:
 
-   - After configuring screens, click "Load Image" to select the image you want to split.
+   - After configuring screens, click **"Load Image"** to select the image you want to split.
 
-3. Adjust the Image:
+3. **Adjust the Image**:
 
-   - Use the Scaling and Panning controls to adjust the image position and size.
-   - Use the Fine Adjust buttons to move the image one pixel at a time for precise positioning.
+   - Use the **Scaling** and **Panning** controls to adjust the image position and size.
+   - Use the **Fine Adjust** buttons to move the image one pixel at a time for precise positioning.
    - Screens not fully covered by the image will display a red border in the preview.
 
-4. Fit Image Over Screens:
+4. **Fit Image Over Screens**:
 
-   - Click "Try to Fit" to automatically scale and position the image over the configured screens.
+   - Click **"Try to Fit"** to automatically scale and position the image over the configured screens.
 
-5. Export Images:
+5. **Export Images**:
 
-   - Click "Export" to save the sliced images for each screen.
-   - The images will be saved in the same directory as the script with filenames like screen_1.jpg, screen_2.jpg, etc.
+   - Click **"Export"** to save the sliced images for each screen.
+   - The images will be saved in the same directory as the script with filenames like `screen_1.jpg`, `screen_2.jpg`, etc.
 
-6. Visit the Developer's Website:
+6. **Visit the Developer's Website**:
 
-   - Click "Made by Clément GHANEME" at the bottom of the application to open the developer's website: https://clement.business.
+   - Click **"Made by Clément GHANEME"** at the bottom of the application to open the developer's website: [https://clement.business](https://clement.business).
 
-Screenshots
+## Screenshots
 
-Screenshots of the application interface can be added here to provide visual guidance.
+*Screenshots of the application interface can be added here to provide visual guidance.*
 
-Troubleshooting
+## Troubleshooting
 
-- Modules Not Found:
+- **Modules Not Found**:
 
   If you encounter errors related to missing modules, ensure all dependencies are installed. Run:
 
+  ```bash
   pip install PyQt5 Pillow screeninfo
+  ```
 
-- Inherit from Windows Not Working:
+- **Inherit from Windows Not Working**:
 
   - Ensure you are running the application on a Windows system.
-  - Make sure the screeninfo module is installed.
+  - Make sure the `screeninfo` module is installed.
 
-- Export Issues:
+- **Export Issues**:
 
   - Ensure that you have loaded an image and configured your screens before exporting.
   - If a screen is highlighted in red, it means the image does not fully cover that screen.
 
-- Application Crashes When Moving Screens:
+- **Application Crashes When Moving Screens**:
 
-  - Make sure you are using the latest version of the code with the toPoint() method issue fixed.
+  - Make sure you are using the latest version of the code with the `toPoint()` method issue fixed.
   - If the problem persists, please report the issue on the GitHub repository.
 
-Contributing
+## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your enhancements or bug fixes.
 
-Acknowledgments
+## Acknowledgments
 
-- Developer: Clément GHANEME
-- Website: https://clement.business
+- **Developer**: Clément GHANEME
+- **Website**: [https://clement.business](https://clement.business)
 
 ---
 
-Enjoy using ScreenSlicer to create amazing multi-monitor setups!
+*Enjoy using ScreenSlicer to create amazing multi-monitor setups!*
