@@ -94,11 +94,11 @@ https://github.com/user-attachments/assets/31ec6d64-5b05-40ff-bb7a-dc9192bb0a04
   - Make sure you are using the latest version of the code with the `toPoint()` method issue fixed.
   - If the problem persists, please report the issue on the GitHub repository.
 
-## Acknowledgments
+##Infos
 
 - **Developer**: Clément GHANEME
 - **Website**: [https://clement.business](https://clement.business)
-- Initial Release : 24/11/2024
+- **Initial Release** : 24/11/2024
 
 ---
 
